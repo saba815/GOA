@@ -1,0 +1,13 @@
+div img {
+    width: 200px;
+    border-radius: 15px;
+}
+
+div p {
+    color: darkgreen;
+    font-size: 18px;
+}
+
+div h2 {
+    color: brown;
+}

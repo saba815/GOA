@@ -1,0 +1,28 @@
+body {
+    background-color: #f0f8ff;
+    color: #333333;
+}
+
+
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: green;
+}
+
+h2 {
+    font-size: 28px;
+    color: brown;
+}
+
+p {
+    font-size: 18px;
+    color: darkblue;
+}
+
+img {
+    border-radius: 20px;
+    width: 250px;
+    
+}

@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(240, 240, 240);
+    color: #333;
+}
+
+
+#header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+#header h1 {
+    font-size: 36px;
+}
+
+.small-text {
+    font-size: 12px;
+}
+
+
+.nav {
+    background-color: rgb(50, 50, 50);
+}
+
+.nav a {
+    color: white;
+}
+
+
+#main {
+    background-color: white;
+}
+
+.section-title {
+    font-size: 28px;
+    color: rgb(0, 102, 204);
+}
+
+.blog-post {
+    background-color: rgb(255, 255, 255);
+}
+
+.blog-post h2 {
+    color: rgb(0, 51, 102);
+}
+
+.blog-post p {
+    font-size: 16px;
+}
+
+
+.highlight {
+    background-color: rgb(255, 255, 0);
+}
+
+/* ფერების div */
+.color-box {
+    width: 150px;
+    height: 150px;
+}
+
+.rgb-red {
+    background-color: rgb(255, 0, 0);
+}
+
+.rgb-green {
+    background-color: rgb(0, 255, 0);
+}
+
+.rgb-blue {
+    background-color: rgb(0, 0, 255);
+}
+
+.hex-magenta {
+    background-color: #FF00FF;
+}
+
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}

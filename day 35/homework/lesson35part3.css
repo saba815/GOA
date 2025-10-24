@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+    color: black;
+}
+
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    color: darkgreen;
+}
+
+
+ol {
+    list-style-type: upper-roman;
+    list-style-position: outside;
+    color: navy;
+}
+
+li {
+    font-size: 20px;
+    color: darkred;
+}

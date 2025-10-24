@@ -1,41 +1,21 @@
-students = ["ნიკოლოზი", "გიორგი", "საბა"]
+students = ["ნინო", "გიორგი", "მარიამი", "ლაშა", "ანა"]
 
 
-students.append("სანდრო")
-print(students)  
+students.append("დავით")
+print("დამატების შემდეგ:", students)
 
 
-students.pop(1)  
-print(students)  
+students.pop()  
+print("pop()-ის შემდეგ:", students)
 
 
-print(len(students))  
+print("სიის სიგრძე არის:", len(students))
 
 
-students.append("გიორგი")        
-print(students.count("გიორგი")) 
+index = students.index("მარიამი")
+print("მარიამი არის ინდექსზე:", index)
 
 
-name = "ანასტასია"
-print(name.find("ნა"))  
-print(name.find("გია"))  
-
-
-
-
-
-fruits = {"ვაშლი", "ბანანი", "ჩირი"}
-
-
-fruits.add("მსხალი")
-print(fruits) 
-
-
-fruits.remove("ბანანი")
-print(fruits)  
-
-
-
-fruits.clear()
-print(fruits)  
+students.append("ანა")
+print("ანა მეორდება:", students.count("ანა"))
 

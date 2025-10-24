@@ -1,0 +1,28 @@
+body {
+  background-color: lightblue;
+  text-align: center;
+}
+
+h1 {
+  color: darkblue;
+}
+
+form {
+  background-color: white;
+  width: 300px;
+  border: 2px solid darkblue;
+  border-radius: 20px;
+}
+
+input {
+  width: 90%;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+button {
+  background-color: darkblue;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}

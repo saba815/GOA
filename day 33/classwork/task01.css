@@ -1,0 +1,27 @@
+#div1{
+    text-decoration: underline;
+    color: blue;
+    font-size: large;
+    background-color: chartreuse;
+    
+}
+
+#div2{
+    text-decoration: underline dotted;
+    text-shadow: 5px 4px 7px brown;
+    background-color: burlywood;
+    color: aquamarine;
+    text-align: center;
+    
+}
+
+
+img{
+    width: 500px;
+}
+
+button:hover{
+          
+    background-color: blueviolet;
+    color: brown;
+}
