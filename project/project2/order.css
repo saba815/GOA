@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e1e8ff;
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 320px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.card-header {
+    height: 160px;
+    background-color: #5a4ee7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-image {
+    height: 100%;
+    width: 100%;
+}
+
+.card-body {
+    padding: 25px;
+    text-align: center;
+}
+
+.text {
+    color: gray;
+    font-size: 14px;
+    margin: 15px 0;
+}
+
+.plan {
+    background-color: #f1f3ff;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.plan-left {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.plan-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.pay {
+    width: 100%;
+    padding: 12px;
+    background-color: #5a4ee7;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cancel {
+    display: block;
+    margin-top: 15px;
+    font-size: 13px;
+    color: gray;
+    text-decoration: none;
+}
